@@ -35,27 +35,19 @@
 }
 
 #fix div{
-  transform: translateX(3%);
+  transform: translateX(8%);
+}
+
+#fix img{
+  transform: translateX(-17%);
 }
   
-
 }
+
+
 @media(max-width: 799px){
-  /* #head{
-    margin:5px;
-  }
-  .inputbox{
-    transform: translateX(10%);
-  }
-  
-#head{
-  transform: translateX(-1%);
-  
-}
 
-#fix div{
-  padding: 0;
-  transform: translateX(9%);
-} */
-
+  #head{
+    transform: translateX(-4%);
+  }
 }
