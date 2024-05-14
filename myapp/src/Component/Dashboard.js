@@ -27,15 +27,15 @@ const Dashboard = () => {
             <div className="featured-image mb-3 p-3 pt-5">
               <img src={f} className="img-fluid" />
             </div>
-            <p className="text-white fs-2">Be Verified</p>
-            <small className="text-white text-wrap text-center">
-              Join experienced Designers on this platform.
-            </small>
           </div>
           {/* -------------------- ------ Right Box ---------------------------- */}
 
-          <div className="col-md-6 right-box mt-5 ">
-            <form onSubmit={submitHandler} className="row align-items-center">
+          <div className="col-md-6 right-box mt-2 ">
+            <form
+              onSubmit={submitHandler}
+              className="row align-items-center"
+              id={styles.inputbox}
+            >
               <div className="header-text mb-4 pt-3">
                 <h2>Welcome User</h2>
                 <p>We are happy to have you back.</p>

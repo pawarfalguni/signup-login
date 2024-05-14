@@ -1,6 +1,4 @@
-#head{
-  height: 75vh;
-}
+
 .register li{
   float: right;
   list-style: none;
@@ -12,4 +10,18 @@
 .register li:hover{
   font-weight: 500;
   color: rgb(36, 6, 36);
+}
+#main{
+  margin-left: 25px;
+}
+
+#head{
+  margin:20px;
+}
+
+@media(max-width: 477px){
+  #head{
+    margin:30px;
+  }
+  
 }
