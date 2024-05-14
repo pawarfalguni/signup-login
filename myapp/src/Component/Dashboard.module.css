@@ -16,12 +16,46 @@
 }
 
 #head{
-  margin:20px;
+  transform: translateX(5%);
+  margin:30px;
+  padding: 25px;
 }
 
-@media(max-width: 477px){
-  #head{
-    margin:30px;
+#fix div{
+  transform: translateX(-1%);
+}
+
+
+@media(max-width: 375px){
+  
+#head{
+  transform: translateX(-9%);
+  margin:30px;
+  padding: 25px;
+}
+
+#fix div{
+  transform: translateX(3%);
+}
+  
+
+}
+@media(max-width: 799px){
+  /* #head{
+    margin:5px;
+  }
+  .inputbox{
+    transform: translateX(10%);
   }
   
+#head{
+  transform: translateX(-1%);
+  
+}
+
+#fix div{
+  padding: 0;
+  transform: translateX(9%);
+} */
+
 }

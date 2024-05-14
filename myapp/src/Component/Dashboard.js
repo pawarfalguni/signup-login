@@ -18,10 +18,13 @@ const Dashboard = () => {
 
   return (
     <div>
-      <div className="container d-flex justify-content-center align-items-center min-vh-100">
+      <div
+        className="container d-flex justify-content-center align-items-center w-100"
+        id={styles.head}
+      >
         <div
           className="row border rounded-5 p-3 bg-white shadow box-area"
-          id={styles.head}
+          id={styles.fix}
         >
           <div className="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
             <div className="featured-image mb-3 p-3 pt-5">
@@ -31,11 +34,7 @@ const Dashboard = () => {
           {/* -------------------- ------ Right Box ---------------------------- */}
 
           <div className="col-md-6 right-box mt-2 ">
-            <form
-              onSubmit={submitHandler}
-              className="row align-items-center"
-              id={styles.inputbox}
-            >
+            <form onSubmit={submitHandler} className={styles.inputbox}>
               <div className="header-text mb-4 pt-3">
                 <h2>Welcome User</h2>
                 <p>We are happy to have you back.</p>
