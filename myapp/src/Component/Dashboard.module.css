@@ -1,0 +1,15 @@
+#head{
+  height: 75vh;
+}
+.register li{
+  float: right;
+  list-style: none;
+  color: rgb(122, 30, 122);
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+}
+
+.register li:hover{
+  font-weight: 500;
+  color: rgb(36, 6, 36);
+}
